@@ -1,0 +1,19 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    background-color:rgb(13, 23, 38);
+}
+
+.navigation {
+    /* background-color: #ffffff5e; */
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(147, 179, 228);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
