@@ -1,9 +1,10 @@
 const mongoose = require("mongoose")
 
 const addEntrySchema = new mongoose.Schema({
-    ammount: {type: String},
+    amount: {type: Number},
     date: {type: Date},
-    expenseType: {type: String},
+    expenses: {type: Array},
+    expensesType: {type: Array},
     incomeSource: {type: String}
 })
 
